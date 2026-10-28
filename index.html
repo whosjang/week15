@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Random Food</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">🍽️ Random Food</div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#menu">Menu</a>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <section class="hero">
+            <h1>วันนี้กินอะไรดี?</h1>
+
+            <p>
+                กดปุ่มเพื่อสุ่มเมนูอาหารสำหรับวันนี้
+            </p>
+        </section>
+
+
+        <section class="food-card" id="menu">
+
+            <img
+                id="food-image"
+                src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800"
+                alt="อาหาร"
+            >
+
+            <div class="food-info">
+
+                <h2 id="food-name">ผัดซีอิ๊ว</h2>
+
+                <p id="food-description">
+                    เส้นใหญ่ผัดกับไข่ คะน้า และซอสซีอิ๊ว
+                </p>
+
+                <p class="price" id="food-price">
+                    50 บาท
+                </p>
+
+                <button id="random-btn">
+                    🎲 สุ่มเมนู
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
